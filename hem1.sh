@@ -48,7 +48,7 @@ case $choice in
 
         # Создание директории и извлечение бинарника
         mkdir -p hemi
-        tar --strip-components=1 -xzvf heminetwork_v0.10.0_linux_amd64.tar.gz -C hemi
+        tar --strip-components=1 -xzvf heminetwork_v0.11.1_linux_amd64.tar.gz -C hemi
         cd hemi
 
         # Создание tBTC кошелька
