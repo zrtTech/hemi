@@ -44,7 +44,7 @@ case $choice in
 
         # Установка бинарника
         echo -e "${BLUE}Загружаем бинарник Hemi...${NC}"
-        curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.10.0/heminetwork_v0.10.0_linux_amd64.tar.gz
+        curl -L -O https://github.com/hemilabs/heminetwork/releases/download/v0.11.1/heminetwork_v0.11.1_linux_amd64.tar.gz
 
         # Создание директории и извлечение бинарника
         mkdir -p hemi
